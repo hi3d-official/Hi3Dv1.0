@@ -234,10 +234,10 @@ def _validate_repository(
 ) -> None:
     if not root.is_dir():
         raise FileNotFoundError(f"model directory does not exist: {root}")
-    required_paths = {Path(relative) for relative in required_files}
+    allowed_symlink_paths = {Path(relative) for relative in _REQUIRED_FILES}
     for path in root.rglob("*"):
         relative = path.relative_to(root)
-        if path.is_symlink() and relative not in required_paths:
+        if path.is_symlink() and relative not in allowed_symlink_paths:
             raise ValueError(f"model repository has an unexpected symlink: {path}")
         if path.is_file() and path.suffix.lower() in _UNSAFE_SUFFIXES:
             raise ValueError(f"unsafe checkpoint file is not permitted: {path}")
