@@ -4,7 +4,7 @@
 
 **High-resolution 3D geometry refinement built upon Sparc3D.**
 
-**[Live Demo](https://huggingface.co/spaces/ilcve21/Sparc3D)** · [Hugging Face](https://huggingface.co/hi3d-official/Hi3Dv1.0) · [International Website](http://hi3d.ai/) · [China Website](https://www.hi3d.cn/)
+**[Live Demo](https://huggingface.co/spaces/ilcve21/Sparc3D)** · [Hugging Face](https://huggingface.co/hi3d-official/Hi3Dv1.0) · [Run on swm cloud](https://cloud.swmgpu.com/w/samofvaani/hi3d-mesh-refiner-studio) · [International Website](http://hi3d.ai/) · [China Website](https://www.hi3d.cn/)
 
 **[Technical Report (PDF)](https://github.com/hi3d-official/Hi3Dv1.0/blob/main/docs/Hi3D_v1.0_Technical_Report.pdf)** · [Download PDF](https://github.com/hi3d-official/Hi3Dv1.0/raw/refs/heads/main/docs/Hi3D_v1.0_Technical_Report.pdf)
 
